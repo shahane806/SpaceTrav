@@ -1,0 +1,646 @@
+*{
+    margin:0px;
+    padding:0px;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: white;
+}
+
+.uppernav {
+    display: flex;
+    width: 100%;
+    flex: 0.8;
+    align-items: center;
+    height: 3rem;
+}
+.logo{
+    width: 100%;
+    flex: 0.2;
+    margin-left:15rem;
+    margin-top: 5rem;
+    align-items: center;
+
+
+}
+.downnav{
+display: flex;
+    /* flex-direction: row; */
+    background-color: rgba(134, 115, 115, 0.667);
+    /* height: 3rem; */
+    /* flex: 0.2; */
+    display: grid;
+    place-items: end;
+    align-items: center;
+    flex: 0.3;
+}
+.downnav>ul {
+    display: flex;
+    /* margin-left: auto; */
+    flex: 0.2;
+    margin: auto;
+    margin-right: 15rem;
+}
+
+.downnav li {
+    list-style-type: none;
+    /* margin: 31px; */
+    padding: 1rem;
+    align-items: center;
+}
+.downnav li:hover{
+    background-color: orangered;
+    text-decoration: none;
+    
+   
+}
+
+.downnav a {
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    cursor:pointer
+   
+}
+.downnav a:hover{
+    color:white;
+}
+.mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+.info{
+    position:absolute;
+    display: grid;
+    margin: auto;
+    place-items: left;    
+    margin-top: 8%;
+    width: 50%;
+    margin-left: 6rem;
+
+}
+.btn{
+   width:15rem;
+    margin:3rem;
+    color:white;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: orangered;
+    padding:1rem;
+}
+.btn:hover{
+    color:orangered;
+    background-color: white;
+}
+.info>h3,h1{
+    margin:2rem;
+    font-size: large;
+    font-weight: 700;
+    color:white;
+}
+.info p{
+    margin:2rem;
+    color:white;
+    font-size:  2rem;
+
+}
+.info h1{
+    font-size:  5rem;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    color:white;
+    margin-top: 35%;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    
+}
+.card{
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: orangered;
+   text-align: center;
+    border: 1px solid white;
+    font-weight: 600;
+    
+    justify-content:center;
+
+}
+.card:hover{
+    background-color: white;
+    color:orangered;
+    border: 1px solid orangered;
+}
+.cardMar{
+    margin:2rem;
+}
+.cardHeading{
+    font-size: xx-large;
+    font-weight: 500;
+}
+::-webkit-scrollbar{
+    background-color: white;
+
+}
+::-webkit-scrollbar-button{
+    background-color: rgba(134, 115, 115, 0.667);
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin:auto;
+    padding:5rem;
+    margin-top: 50rem;
+    margin-bottom: 10rem;
+}
+.services>h3,.services>p{
+    font-size:xx-large;
+    color:orangered;
+    font-weight: 200;
+    margin:3rem;
+}
+#ourWork{
+    margin-top:10rem;
+}
+.card1{
+    grid-area:card1;
+
+}
+.card2{
+    grid-area:card2;
+}
+.card3{
+    grid-area:card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area:card5;
+}
+.card6{
+    grid-area:card6;
+}
+.cardContainer2{
+
+    display: grid;
+   place-items: center;
+   grid-template-areas: 'card1 card2 card3'
+                          'card4 card5 card6';
+   padding: inherit;
+   width: 100%;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    background-color: rgb(252, 252, 252);
+    width: 98%;
+    height:90%;
+      border: 1px solid rgb(205 205 205 / 33%);
+      margin-bottom: 15rem;
+
+}
+.purchase{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background:url("https://gloxy-react.envytheme.com/static/cta-bg-img-39434724a310b9e24e6c1b0f4e4f7773.jpg");
+    place-items: center;
+    margin: auto;
+}
+.infoPurchase{
+    width:50%;
+}
+.imgPurchase{
+    margin:4rem;
+}
+#logo2{
+    visibility: hidden;
+}
+@media only screen and (max-width: 1443px) {
+    
+    .info{
+        margin:2%;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 85vh;
+        background-size: cover;
+        width: 100%;
+    }
+
+  }
+@media only screen and (max-width: 1178px) {
+    
+    .info{
+        margin:2%;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 70vh;
+        background-size: cover;
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 1121px) {
+   
+    .cardContainer{
+        margin-top: 50%;
+    }
+    .services{
+        margin-top:20%;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 77vh;
+        background-size: cover;
+        width: 100%;
+    }
+    
+  }
+@media only screen and (max-width: 934px) {
+   
+    .cardContainer{
+        margin-top: 74%;
+    }
+    .services{
+        margin-top:35%;
+    }
+    .logo{
+       margin-left:5rem;
+    }
+    .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 90vh;
+        background-size: cover;
+        width: 100%;
+    }
+    
+  }
+@media only screen and (max-width: 900px) {
+   
+    .card1{
+        grid-area:card1;
+    
+    }
+    .card2{
+        grid-area:card2;
+    }
+    .card3{
+        grid-area:card3;
+    }
+    .card4{
+        grid-area: card4;
+    }
+    .card5{
+        grid-area:card5;
+    }
+    .card6{
+        grid-area:card6;
+    }
+    .cardContainer2{
+    
+        display: flex;
+       place-items: center;
+       flex-direction: column;
+       grid-template-columns: 'card1 '
+                            'card2'
+                            'card3'
+                              'card4'
+                              ' card5'
+                              ' card6';
+       padding: inherit;
+       width: 100%;
+    }
+    .card1,.card2,.card3,.card4,.card5,.card6{
+        background-color: rgb(252, 252, 252);
+        width:70%;
+        height:90%;
+          border: 1px solid rgb(205 205 205 / 33%);
+          margin-bottom: 9rem;
+    
+    }
+    
+  
+  #navbar2{
+    display:none;
+  }
+  .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 80vh;
+    background-size: cover;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 891px) {
+    
+   
+     .info p{
+         margin:1rem;
+         color:white;
+         font-size: 20px;
+     
+     }
+     .info h1{
+         font-size:  3rem;
+     }
+     .mainBody{
+        background:url("./banner.png");
+        background-repeat:no-repeat;
+        height: 80vh;
+        background-size: cover;
+        width: 100%;
+    }
+    
+  }
+@media only screen and (max-width: 891px) {
+    .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height:80vh;
+    background-size: cover;
+    width: 100%;
+}
+   
+    #logo1{
+        visibility: hidden;
+    
+       }
+       #logo2{
+        visibility: visible;
+        margin-top: 10rem;
+        margin-left: 33rem;
+       }
+       
+       .uppernav p{
+        font-size: small;
+    }
+  }
+@media only screen and (max-width: 860px) {.mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 75vh;
+    background-size: cover;
+    width: 100%;
+}
+    
+    #logo1{
+        visibility: hidden;
+    
+       }
+       #logo2{
+        visibility: visible;
+        margin-top: 10rem;
+        margin-left: 33rem;
+       }
+       
+       .uppernav p{
+        font-size: xx-small;
+    }
+  }
+@media only screen and (max-width: 811px) {
+    .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 75vh;
+    background-size: cover;
+    width: 100%;
+}
+    
+   #logo1{
+    visibility: hidden;
+
+   }
+   #logo2{
+    visibility: visible;
+    margin-top: 10rem;
+    margin-left: 33rem;
+   }
+   
+    .uppernav p{
+        font-size: 10px;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+  }
+@media only screen and (max-width: 788px) {.mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 75vh;
+    background-size: cover;
+    width: 100%;
+}
+   
+   #logo1{
+    visibility: hidden;
+
+   }
+   #logo2{
+    visibility: visible;
+    margin-top: 10rem;
+    margin-left: 33rem;
+   }
+   
+    .uppernav p{
+        font-size: 10px;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+  }
+@media only screen and (max-width: 786px) {
+    .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 70vh;
+    background-size: cover;
+    width: 100%;
+}
+   
+   #logo1{
+    visibility: hidden;
+
+   }
+   #logo2{
+    visibility: visible;
+    margin-top: 10rem;
+    margin-left: 33rem;
+   }
+   
+    .uppernav p{
+        visibility: hidden;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+  }
+@media only screen and (max-width: 693px) {
+    .mainBody{
+    background:url("./banner.png");
+    background-repeat:no-repeat;
+    height: 65vh;
+    background-size: cover;
+    width: 100%;
+}
+   
+   
+   
+    #navbar{
+            display: none;
+    }
+    .info p{
+        margin:1rem;
+        color:white;
+        font-size: 15px;
+    
+    }
+    .info h1{
+        font-size:  2rem;
+    }
+    .imgPurchase>img{
+        height: 18rem;
+        width: 19rem;
+    }
+    .btn{
+        margin:1rem;
+    }
+  
+    
+  }
+
+
+  @media only screen and (max-width: 1177px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 95vh;
+        background-size: cover;
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 707px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 95vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        margin-top:90rem;
+    }
+  }
+  @media only screen and (max-width: 685px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 95vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        margin-top:90rem;
+    }
+  }
+  @media only screen and (max-width: 693px) {
+    .mainBody {
+        background: url(./banner.png);
+        background-repeat: no-repeat;
+        height: 45vh;
+        background-size: cover;
+        width: 100%;
+    }
+    .cardContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        margin-top:90rem;
+    }
+    .imgPurchase>img {
+        height: 8rem;
+        width: 8rem;
+    }
+    .cardHeading{
+        font-size: large;
+    }
+    .info {
+        position: absolute;
+        display: grid;
+        margin: auto;
+        place-items: left;
+        margin-top: 8%;
+        width: 90%;
+        margin-left: 1rem;
+    }
+    .info>h3, h1 {
+        margin: 1rem;
+        font-size: small;
+        font-weight: 400;
+        color: white;
+    }
+    .info p {
+        margin: 1rem;
+        color: white;
+        font-size: 9px;
+    }
+  }
