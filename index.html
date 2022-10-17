@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="javascriptreact">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+ 
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>SpaceTrav - project2</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./gloxy.css" />
+  
+<style>
+ #logo1, #logo2 {
+    height: 9rem;
+}
+    @media only screen and (max-width: 2000px) {
+  #mynav{
+    display:none;
+  }
+    }
+    @media only screen and (max-width: 692px) {
+  #mynav{
+    display:flex;
+    text-align: center;
+  }
+  .navbar-brand
+  {
+      padding-top: 15px;
+
+  }
+     .cardContainer{
+      display: flex;
+      flex-direction: column;
+     }
+    .services{
+      margin-top:90rem;
+    }
+    #ourWork{
+      margin-top:10rem;
+    }
+  }
+   
+  </style>
+  </head>
+  <body>
+    
+    <div id="navbar">
+      
+      <div class="uppernav">
+        
+        <div class="logo">
+          <img
+            id="logo1"
+            src="./logo.png"
+          />
+        </div>
+        <p>
+          <span class="glyphicon glyphicon-envelope"></span> &nbsp;
+          &nbsp;om.p.shahane@gmail.com &nbsp; &nbsp; &nbsp; &nbsp;
+          <span class="glyphicon glyphicon-earphone"></span> &nbsp; &nbsp;
+          +917887941005
+        </p>
+        <div class="logo2">
+          <img
+            id="logo2"
+            src="./logo.png"
+          />
+        </div>
+      </div>
+      <div class="downnav">
+        <ul>
+          <li>
+            <a href="./home.html">Home</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li>
+            <a href="#team">Team</a>
+          </li>
+          <li>
+            <a href="#pricing">Pricing</a>
+          </li>
+          <li>
+            <a href="https://spacetrav.blogspot.com/">Blog</a>
+          </li>
+          <li>
+            <a href="./contact.html"> Contact </a>
+          </li>
+          <li>
+            <a>
+              <span class="glyphicon glyphicon-search"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <nav id = "mynav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#services">Services <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./about.html">About <span class="sr-only">(current)</span></a>
+          </li>
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="#team">Team <span class="sr-only">(current)</span></a>
+          </li>
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="#pricing">Pricing <span class="sr-only">(current)</span></a>
+          </li>
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="https://spacetrav.blogspot.com">Blog <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+          </li>
+         
+         
+         
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+    <div class="info">
+      <h3>Clean & Creative</h3>
+      <h1>We are an Expert</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus,
+        error adipisci. Quaerat, omnis! Rerum debitis eaque dignissimos commodi
+        illo, dolorem facilis, possimus, numquam modi vitae ut tempora error
+        labore tempore!
+      </p>
+      <button class="btn">
+        Get Started <span class="glyphicon glyphicon-arrow-right"></span>
+      </button>
+    </div>
+    <div class="cardContainer">
+      <div class="card">
+        <div class="cardMar cardImg"></div>
+        <div class="cardMar cardHeading">Beautiful Design</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardMar cardImg"></div>
+        <div class="cardMar cardHeading">Unique Features</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardMar cardImg"></div>
+        <div class="cardMar cardHeading">Reliable Support</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mainBody"></div>
+    <div class="services" id="services">
+      <h3>Services</h3>
+      <div class="servicesDiscription">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis
+        veritatis distinctio deserunt eum quae quisquam eveniet modi error sequi
+        iusto nobis voluptate, corporis itaque amet explicabo ex? Temporibus,
+        odit.
+      </div>
+    </div>
+    <div class="cardContainer2">
+      <div class="card card1">
+        <div class="cardMar cardImg">
+          <i
+            style="font-size: 48px; color: red"
+            class="glyphicon glyphicon-user"
+          ></i>
+        </div>
+        <div class="cardMar cardHeading">Creative Solution</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+      <div class="card card2">
+        <div class="cardMar cardImg">
+          <i class="fa fa-bullseye" style="font-size: 48px; color: red"></i>
+        </div>
+        <div class="cardMar cardHeading">Excellent Features</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+      <div class="card card3">
+        <div class="cardMar cardImg">
+          <i class="fa fa-female" style="font-size: 48px; color: red"></i>
+        </div>
+        <div class="cardMar cardHeading">Friendly Support</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+      <div class="card card4">
+        <div class="cardMar cardImg">
+          <i class="fa fa-bar-chart" style="font-size: 48px; color: red"></i>
+        </div>
+        <div class="cardMar cardHeading">SEO & Advertising</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+      <div class="card card5">
+        <div class="cardMar cardImg">
+          <i class="fa fa-users" style="font-size: 48px; color: red"></i>
+        </div>
+        <div class="cardMar cardHeading">Marketing & Consulting</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+      <div class="card card6">
+        <div class="cardMar cardImg">
+          <i class="fa fa-desktop" style="font-size: 48px; color: red"></i>
+        </div>
+        <div class="cardMar cardHeading">Design & Development</div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="purchase">
+      <div class="infoPurchase">
+        <div class="cardMar cardHeading">
+          We offer best in class service for your needs
+        </div>
+        <div class="cardMar cardDiscription">
+          <p>
+            We strive to embrace and drive change in our industry which allows
+            us to keep our clients relevant.
+          </p>
+        </div>
+        <button class="btn">
+          Purchase <span class="glyphicon glyphicon-arrow-right"></span>
+        </button>
+      </div>
+      <div class="imgPurchase">
+        <img
+          src="https://gloxy-react.envytheme.com/static/ca7b86b3712d7856d7672387f1c6b1a3/70169/mac-pro.png"
+          alt="purchase"
+        />
+      </div>
+    </div>
+    <div class="services" id="ourWork">
+      <h3>OurWork</h3>
+      <div class="servicesDiscription">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati omnis
+        veritatis distinctio deserunt eum quae quisquam eveniet modi error sequi
+        iusto nobis voluptate, corporis itaque amet explicabo ex? Temporibus,
+        odit.
+      </div>
+    </div>
+  </body>
+  <script src="./gloxy.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
