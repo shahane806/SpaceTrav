@@ -238,7 +238,7 @@ display: flex;
         margin:2%;
     }
     .mainBody{
-        background:url("./banner.png");
+       background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat:no-repeat;
         height: 85vh;
         background-size: cover;
@@ -252,7 +252,7 @@ display: flex;
         margin:2%;
     }
     .mainBody{
-        background:url("./banner.png");
+    background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat:no-repeat;
         height: 70vh;
         background-size: cover;
@@ -268,7 +268,7 @@ display: flex;
         margin-top:20%;
     }
     .mainBody{
-        background:url("./banner.png");
+     background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat:no-repeat;
         height: 77vh;
         background-size: cover;
@@ -288,7 +288,7 @@ display: flex;
        margin-left:5rem;
     }
     .mainBody{
-        background:url("./banner.png");
+        background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat:no-repeat;
         height: 90vh;
         background-size: cover;
@@ -345,7 +345,7 @@ display: flex;
     display:none;
   }
   .mainBody{
-    background:url("./banner.png");
+  background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
     background-repeat:no-repeat;
     height: 80vh;
     background-size: cover;
@@ -365,7 +365,7 @@ display: flex;
          font-size:  3rem;
      }
      .mainBody{
-        background:url("./banner.png");
+        background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat:no-repeat;
         height: 80vh;
         background-size: cover;
@@ -375,7 +375,7 @@ display: flex;
   }
 @media only screen and (max-width: 891px) {
     .mainBody{
-    background:url("./banner.png");
+   background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
     background-repeat:no-repeat;
     height:80vh;
     background-size: cover;
@@ -397,7 +397,7 @@ display: flex;
     }
   }
 @media only screen and (max-width: 860px) {.mainBody{
-    background:url("./banner.png");
+    background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
     background-repeat:no-repeat;
     height: 75vh;
     background-size: cover;
@@ -420,7 +420,7 @@ display: flex;
   }
 @media only screen and (max-width: 811px) {
     .mainBody{
-    background:url("./banner.png");
+  background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
     background-repeat:no-repeat;
     height: 75vh;
     background-size: cover;
@@ -455,7 +455,7 @@ display: flex;
     }
   }
 @media only screen and (max-width: 788px) {.mainBody{
-    background:url("./banner.png");
+   background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
     background-repeat:no-repeat;
     height: 75vh;
     background-size: cover;
@@ -491,7 +491,7 @@ display: flex;
   }
 @media only screen and (max-width: 786px) {
     .mainBody{
-    background:url("./banner.png");
+background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
     background-repeat:no-repeat;
     height: 70vh;
     background-size: cover;
@@ -527,7 +527,7 @@ display: flex;
   }
 @media only screen and (max-width: 693px) {
     .mainBody{
-    background:url("./banner.png");
+   background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
     background-repeat:no-repeat;
     height: 65vh;
     background-size: cover;
@@ -562,7 +562,7 @@ display: flex;
 
   @media only screen and (max-width: 1177px) {
     .mainBody {
-        background: url(./banner.png);
+        background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat: no-repeat;
         height: 95vh;
         background-size: cover;
@@ -571,7 +571,7 @@ display: flex;
   }
   @media only screen and (max-width: 707px) {
     .mainBody {
-        background: url(./banner.png);
+       background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat: no-repeat;
         height: 95vh;
         background-size: cover;
@@ -587,7 +587,7 @@ display: flex;
   }
   @media only screen and (max-width: 685px) {
     .mainBody {
-        background: url(./banner.png);
+       background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat: no-repeat;
         height: 95vh;
         background-size: cover;
@@ -603,7 +603,7 @@ display: flex;
   }
   @media only screen and (max-width: 693px) {
     .mainBody {
-        background: url(./banner.png);
+       background:url("./earth-moon-sun-solar-system-asteroids-1280x720-950.jpg");
         background-repeat: no-repeat;
         height: 45vh;
         background-size: cover;
